@@ -589,7 +589,7 @@ public class GUIODEsJPanel extends javax.swing.JPanel {
         jLabel7.setForeground(new java.awt.Color(102, 102, 102));
         jLabel7.setText(" X");
 
-        jLabel18.setIcon(new javax.swing.ImageIcon("C:\\Users\\Vaibhav Jain\\Documents\\NetBeansProjects\\NMProject\\src\\Drawing_100x100.png")); // NOI18N
+        jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/area/math/nm/ui/Drawing_100x100.png"))); // NOI18N
 
         jPanel3.setBackground(new java.awt.Color(219, 219, 236));
 
@@ -629,7 +629,7 @@ public class GUIODEsJPanel extends javax.swing.JPanel {
         jLabel17.setForeground(new java.awt.Color(102, 102, 102));
         jLabel17.setText("*Use the given Input panel to input the F(X,Y) and the value of X0,Y(X0) and X from keyboard");
 
-        jLabel19.setIcon(new javax.swing.ImageIcon("C:\\Users\\Vaibhav Jain\\Documents\\NetBeansProjects\\NMProject\\src\\smiley.png")); // NOI18N
+        jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/area/math/nm/ui/smiley.png"))); // NOI18N
         jLabel19.setText("jLabel19");
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
@@ -674,7 +674,7 @@ public class GUIODEsJPanel extends javax.swing.JPanel {
                     .addComponent(jLabel8)
                     .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel14)
                     .addComponent(jLabel11))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)

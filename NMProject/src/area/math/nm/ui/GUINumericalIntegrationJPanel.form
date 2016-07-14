@@ -17,7 +17,7 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" attributes="0">
-              <EmptySpace pref="27" max="32767" attributes="0"/>
+              <EmptySpace pref="30" max="32767" attributes="0"/>
               <Component id="jPanel9" min="-2" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
@@ -36,7 +36,7 @@
                       </Group>
                   </Group>
               </Group>
-              <EmptySpace pref="51" max="32767" attributes="0"/>
+              <EmptySpace pref="53" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -75,7 +75,7 @@
                   <EmptySpace min="-2" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
                       <Component id="jScrollPane4" pref="642" max="32767" attributes="0"/>
-                      <Component id="jPanel5" pref="0" max="32767" attributes="0"/>
+                      <Component id="jPanel5" pref="642" max="32767" attributes="0"/>
                   </Group>
                   <EmptySpace max="32767" attributes="0"/>
               </Group>
@@ -106,18 +106,18 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="175" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="xmin_txt1" alignment="0" max="32767" attributes="0"/>
+                          <Component id="xmin_txt" alignment="0" max="32767" attributes="0"/>
                           <Component id="xmin_lbl1" alignment="0" min="-2" pref="51" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="xinc_txt1" min="-2" pref="53" max="-2" attributes="0"/>
+                          <Component id="xinc_txt" min="-2" pref="53" max="-2" attributes="0"/>
                           <Component id="xinc_lbl1" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
                           <Component id="xmax_lbl1" alignment="0" max="32767" attributes="0"/>
-                          <Component id="xmax_txt1" alignment="0" min="-2" pref="51" max="-2" attributes="0"/>
+                          <Component id="xmax_txt" alignment="0" min="-2" pref="51" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
                       <Component id="plot_btn1" min="-2" pref="85" max="-2" attributes="0"/>
@@ -141,10 +141,12 @@
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
-                              <Component id="xmin_txt1" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
-                              <Component id="xinc_txt1" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
-                              <Component id="xmax_txt1" alignment="1" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="0" attributes="0">
+                              <Component id="xmax_txt" alignment="1" min="-2" pref="25" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="xmin_txt" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                                  <Component id="xinc_txt" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                              </Group>
                           </Group>
                           <Component id="plot_btn1" alignment="0" min="-2" pref="24" max="-2" attributes="0"/>
                       </Group>
@@ -167,7 +169,7 @@
                 <Property name="text" type="java.lang.String" value=" X-min"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="xmin_txt1">
+            <Component class="javax.swing.JTextField" name="xmin_txt">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="ef" green="df" red="df" type="rgb"/>
@@ -201,7 +203,7 @@
                 <Property name="text" type="java.lang.String" value="   X-in"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="xinc_txt1">
+            <Component class="javax.swing.JTextField" name="xinc_txt">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="ef" green="df" red="df" type="rgb"/>
@@ -235,7 +237,7 @@
                 <Property name="text" type="java.lang.String" value="X-max"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="xmax_txt1">
+            <Component class="javax.swing.JTextField" name="xmax_txt">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="ef" green="df" red="df" type="rgb"/>
@@ -261,7 +263,7 @@
                 </Property>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="xmax_txt1ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="xmax_txtActionPerformed"/>
               </Events>
             </Component>
             <Component class="javax.swing.JButton" name="plot_btn1">
@@ -372,7 +374,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel19">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Users\Vaibhav Jain\Documents\NetBeansProjects\NMProject\src\smiley.png"/>
+                      <Image iconType="3" name="/area/math/nm/ui/smiley.png"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="jLabel19"/>
                   </Properties>
@@ -602,7 +604,6 @@
                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                       </Group>
                   </Group>
-                  <EmptySpace max="-2" attributes="0"/>
                   <Component id="jLabel7" min="-2" pref="26" max="-2" attributes="0"/>
                   <EmptySpace pref="14" max="32767" attributes="0"/>
                   <Group type="103" groupAlignment="1" attributes="0">
@@ -1633,7 +1634,7 @@
           <Color blue="eb" green="db" red="db" type="rgb"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Vaibhav Jain\Documents\NetBeansProjects\NMProject\src\Drawing_100x100.png"/>
+          <Image iconType="3" name="/area/math/nm/ui/Drawing_100x100.png"/>
         </Property>
       </Properties>
     </Component>

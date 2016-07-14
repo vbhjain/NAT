@@ -1259,7 +1259,7 @@
     <Component class="javax.swing.JLabel" name="jLabel18">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Vaibhav Jain\Documents\NetBeansProjects\NMProject\src\Drawing_100x100.png"/>
+          <Image iconType="3" name="/area/math/nm/ui/Drawing_100x100.png"/>
         </Property>
       </Properties>
     </Component>
@@ -1322,9 +1322,9 @@
                       <Component id="jLabel10" alignment="0" min="-2" pref="28" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
                       <Component id="jLabel14" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
@@ -1445,7 +1445,7 @@
         <Component class="javax.swing.JLabel" name="jLabel19">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Vaibhav Jain\Documents\NetBeansProjects\NMProject\src\smiley.png"/>
+              <Image iconType="3" name="/area/math/nm/ui/smiley.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="jLabel19"/>
           </Properties>

@@ -14,7 +14,7 @@ import net.objecthunter.exp4j.ExpressionBuilder;
  */
 public class NumericalDifferentiation {
 
-    final double h = 1.0e-9;
+    final double h = 1.0e-12;
     String exp;
     
     public NumericalDifferentiation(String exp){

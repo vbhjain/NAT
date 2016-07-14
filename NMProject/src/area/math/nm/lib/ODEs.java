@@ -16,7 +16,7 @@ public class ODEs {
     
     public double solveOde(String exp,double x0,double y0,double x)
     { 
-      double h = x/10000d;
+      double h = x/1000d;
       Expression e = new ExpressionBuilder(exp)
                 .variables("X", "Y")
                 .build()

@@ -199,7 +199,7 @@ public class GUINumericalDifferentiationJPanel extends javax.swing.JPanel {
 
         graphcontainer.setBackground(new java.awt.Color(222, 222, 239));
 
-        jLabel19.setIcon(new javax.swing.ImageIcon("C:\\Users\\Vaibhav Jain\\Documents\\NetBeansProjects\\NMProject\\src\\smiley.png")); // NOI18N
+        jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/area/math/nm/ui/smiley.png"))); // NOI18N
         jLabel19.setText("jLabel19");
 
         jLabel22.setFont(new java.awt.Font("Segoe Script", 1, 16)); // NOI18N
@@ -287,7 +287,7 @@ public class GUINumericalDifferentiationJPanel extends javax.swing.JPanel {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jLabel21.setIcon(new javax.swing.ImageIcon("C:\\Users\\Vaibhav Jain\\Documents\\NetBeansProjects\\NMProject\\src\\Drawing_100x100.png")); // NOI18N
+        jLabel21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/area/math/nm/ui/Drawing_100x100.png"))); // NOI18N
 
         jLabel7.setFont(new java.awt.Font("Segoe Script", 1, 14)); // NOI18N
         jLabel7.setText("Numerical analysis Tutorial");
@@ -714,11 +714,12 @@ public class GUINumericalDifferentiationJPanel extends javax.swing.JPanel {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jButton21, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jButton28, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jButton28, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                .addComponent(jButton21, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jButton26)
@@ -773,7 +774,7 @@ public class GUINumericalDifferentiationJPanel extends javax.swing.JPanel {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jLabel21))))
-                .addContainerGap(78, Short.MAX_VALUE))
+                .addContainerGap(56, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -929,14 +930,6 @@ public class GUINumericalDifferentiationJPanel extends javax.swing.JPanel {
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField1ActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        String str = jLabel1.getText();
-        String replaced = str.replaceAll("<sup>","^(").replaceAll("</sup>",")").replaceAll("<html>","").replaceAll("&nbsp;","");
-        double t=Double.parseDouble(jTextField1.getText());
-        NumericalDifferentiation nd = new NumericalDifferentiation(replaced);
-        JOptionPane.showMessageDialog(null,nd.derive(t));
-    }//GEN-LAST:event_jButton2ActionPerformed
-
     private void jButton29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton29ActionPerformed
         jLabel1.setText("<html>&nbsp;&nbsp;");
     }//GEN-LAST:event_jButton29ActionPerformed
@@ -950,6 +943,14 @@ public class GUINumericalDifferentiationJPanel extends javax.swing.JPanel {
         String replaced = str.replaceAll("<sup>","^(").replaceAll("</sup>",")").replaceAll("<html>","").replaceAll("&nbsp;","");
         JOptionPane.showMessageDialog(null,replaced);
     }//GEN-LAST:event_jButton28ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        String str = jLabel1.getText();
+        String replaced = str.replaceAll("<sup>","^(").replaceAll("</sup>",")").replaceAll("<html>","").replaceAll("&nbsp;","");
+        double t=Double.parseDouble(jTextField1.getText());
+        NumericalDifferentiation nd = new NumericalDifferentiation(replaced);
+        JOptionPane.showMessageDialog(null,nd.derive(t));
+    }//GEN-LAST:event_jButton2ActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

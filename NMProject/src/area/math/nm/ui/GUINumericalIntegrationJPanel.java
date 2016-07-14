@@ -36,11 +36,11 @@ public class GUINumericalIntegrationJPanel extends javax.swing.JPanel {
         jPanel9 = new javax.swing.JPanel();
         jPanel5 = new javax.swing.JPanel();
         xmin_lbl1 = new javax.swing.JLabel();
-        xmin_txt1 = new javax.swing.JTextField();
+        xmin_txt = new javax.swing.JTextField();
         xinc_lbl1 = new javax.swing.JLabel();
-        xinc_txt1 = new javax.swing.JTextField();
+        xinc_txt = new javax.swing.JTextField();
         xmax_lbl1 = new javax.swing.JLabel();
-        xmax_txt1 = new javax.swing.JTextField();
+        xmax_txt = new javax.swing.JTextField();
         plot_btn1 = new javax.swing.JButton();
         jLabel6 = new javax.swing.JLabel();
         jScrollPane4 = new javax.swing.JScrollPane();
@@ -101,32 +101,32 @@ public class GUINumericalIntegrationJPanel extends javax.swing.JPanel {
         xmin_lbl1.setForeground(new java.awt.Color(102, 102, 102));
         xmin_lbl1.setText(" X-min");
 
-        xmin_txt1.setBackground(new java.awt.Color(223, 223, 239));
-        xmin_txt1.setForeground(new java.awt.Color(0, 51, 153));
-        xmin_txt1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(204, 255, 204), new java.awt.Color(204, 255, 204), new java.awt.Color(204, 204, 255), new java.awt.Color(0, 0, 255)));
-        xmin_txt1.setSelectionColor(new java.awt.Color(204, 204, 204));
+        xmin_txt.setBackground(new java.awt.Color(223, 223, 239));
+        xmin_txt.setForeground(new java.awt.Color(0, 51, 153));
+        xmin_txt.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(204, 255, 204), new java.awt.Color(204, 255, 204), new java.awt.Color(204, 204, 255), new java.awt.Color(0, 0, 255)));
+        xmin_txt.setSelectionColor(new java.awt.Color(204, 204, 204));
 
         xinc_lbl1.setFont(new java.awt.Font("Script MT Bold", 0, 14)); // NOI18N
         xinc_lbl1.setForeground(new java.awt.Color(102, 102, 102));
         xinc_lbl1.setText("   X-in");
 
-        xinc_txt1.setBackground(new java.awt.Color(223, 223, 239));
-        xinc_txt1.setForeground(new java.awt.Color(0, 51, 153));
-        xinc_txt1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 255, 51), new java.awt.Color(0, 255, 51), new java.awt.Color(0, 0, 153), new java.awt.Color(0, 0, 204)));
-        xinc_txt1.setSelectionColor(new java.awt.Color(204, 204, 204));
+        xinc_txt.setBackground(new java.awt.Color(223, 223, 239));
+        xinc_txt.setForeground(new java.awt.Color(0, 51, 153));
+        xinc_txt.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 255, 51), new java.awt.Color(0, 255, 51), new java.awt.Color(0, 0, 153), new java.awt.Color(0, 0, 204)));
+        xinc_txt.setSelectionColor(new java.awt.Color(204, 204, 204));
 
         xmax_lbl1.setFont(new java.awt.Font("Script MT Bold", 0, 14)); // NOI18N
         xmax_lbl1.setForeground(new java.awt.Color(102, 102, 102));
         xmax_lbl1.setText("X-max");
 
-        xmax_txt1.setBackground(new java.awt.Color(223, 223, 239));
-        xmax_txt1.setForeground(new java.awt.Color(0, 51, 153));
-        xmax_txt1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(204, 255, 204), new java.awt.Color(204, 255, 204), new java.awt.Color(204, 204, 255), new java.awt.Color(0, 0, 255)));
-        xmax_txt1.setCaretColor(new java.awt.Color(0, 0, 51));
-        xmax_txt1.setSelectionColor(new java.awt.Color(204, 204, 204));
-        xmax_txt1.addActionListener(new java.awt.event.ActionListener() {
+        xmax_txt.setBackground(new java.awt.Color(223, 223, 239));
+        xmax_txt.setForeground(new java.awt.Color(0, 51, 153));
+        xmax_txt.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(204, 255, 204), new java.awt.Color(204, 255, 204), new java.awt.Color(204, 204, 255), new java.awt.Color(0, 0, 255)));
+        xmax_txt.setCaretColor(new java.awt.Color(0, 0, 51));
+        xmax_txt.setSelectionColor(new java.awt.Color(204, 204, 204));
+        xmax_txt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                xmax_txt1ActionPerformed(evt);
+                xmax_txtActionPerformed(evt);
             }
         });
 
@@ -151,16 +151,16 @@ public class GUINumericalIntegrationJPanel extends javax.swing.JPanel {
             .addGroup(jPanel5Layout.createSequentialGroup()
                 .addGap(175, 175, 175)
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(xmin_txt1)
+                    .addComponent(xmin_txt)
                     .addComponent(xmin_lbl1, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(xinc_txt1, javax.swing.GroupLayout.PREFERRED_SIZE, 53, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(xinc_txt, javax.swing.GroupLayout.PREFERRED_SIZE, 53, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(xinc_lbl1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(xmax_lbl1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(xmax_txt1, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(xmax_txt, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(24, 24, 24)
                 .addComponent(plot_btn1, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(192, 192, 192))
@@ -179,10 +179,11 @@ public class GUINumericalIntegrationJPanel extends javax.swing.JPanel {
                     .addComponent(xmax_lbl1))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(xmin_txt1, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(xinc_txt1, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(xmax_txt1, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(xmax_txt, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(xmin_txt, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(xinc_txt, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addComponent(plot_btn1, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel6)
@@ -193,7 +194,7 @@ public class GUINumericalIntegrationJPanel extends javax.swing.JPanel {
 
         graphcontainer.setBackground(new java.awt.Color(220, 220, 238));
 
-        jLabel19.setIcon(new javax.swing.ImageIcon("C:\\Users\\Vaibhav Jain\\Documents\\NetBeansProjects\\NMProject\\src\\smiley.png")); // NOI18N
+        jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/area/math/nm/ui/smiley.png"))); // NOI18N
         jLabel19.setText("jLabel19");
 
         jLabel22.setFont(new java.awt.Font("Segoe Script", 1, 16)); // NOI18N
@@ -271,7 +272,7 @@ public class GUINumericalIntegrationJPanel extends javax.swing.JPanel {
                 .addContainerGap()
                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jScrollPane4, javax.swing.GroupLayout.DEFAULT_SIZE, 642, Short.MAX_VALUE)
-                    .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
+                    .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, 642, Short.MAX_VALUE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel9Layout.setVerticalGroup(
@@ -767,7 +768,6 @@ public class GUINumericalIntegrationJPanel extends javax.swing.JPanel {
                         .addGap(27, 27, 27)
                         .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(0, 0, Short.MAX_VALUE)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 14, Short.MAX_VALUE)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
@@ -835,7 +835,7 @@ public class GUINumericalIntegrationJPanel extends javax.swing.JPanel {
         });
 
         jLabel21.setBackground(new java.awt.Color(219, 219, 235));
-        jLabel21.setIcon(new javax.swing.ImageIcon("C:\\Users\\Vaibhav Jain\\Documents\\NetBeansProjects\\NMProject\\src\\Drawing_100x100.png")); // NOI18N
+        jLabel21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/area/math/nm/ui/Drawing_100x100.png"))); // NOI18N
 
         jLabel8.setFont(new java.awt.Font("Segoe Script", 1, 14)); // NOI18N
         jLabel8.setText("Numerical analysis Tutorial");
@@ -845,7 +845,7 @@ public class GUINumericalIntegrationJPanel extends javax.swing.JPanel {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap(27, Short.MAX_VALUE)
+                .addContainerGap(30, Short.MAX_VALUE)
                 .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
@@ -859,7 +859,7 @@ public class GUINumericalIntegrationJPanel extends javax.swing.JPanel {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(51, Short.MAX_VALUE))
+                .addContainerGap(53, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -882,12 +882,13 @@ public class GUINumericalIntegrationJPanel extends javax.swing.JPanel {
         );
     }// </editor-fold>//GEN-END:initComponents
 
-    private void xmax_txt1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_xmax_txt1ActionPerformed
+    private void xmax_txtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_xmax_txtActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_xmax_txt1ActionPerformed
+    }//GEN-LAST:event_xmax_txtActionPerformed
 
     private void plot_btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_plot_btn1ActionPerformed
 
+        
         double xmin = Double.parseDouble(xmin_txt.getText());
         double xinc = Double.parseDouble(xinc_txt.getText());
         double xmax = Double.parseDouble(xmax_txt.getText());
@@ -896,18 +897,15 @@ public class GUINumericalIntegrationJPanel extends javax.swing.JPanel {
         String str = jLabel1.getText();
         String replaced = str.replaceAll("<sup>","^(").replaceAll("</sup>",")").replaceAll("<html>","").replaceAll("&nbsp;","");
 
-        
         Expression e = new ExpressionBuilder(replaced)
-        .variables("X", "Y")
+        .variables("X")
         .build();
 
         int dim = (int) (((xmax-xmin) / xinc) + 1);
-        double[] y=new double[x.length];
         double[] yorg=new double[x.length];
 
-       
+        for(int i=0;i<x.length;i++) {yorg[i]=e.setVariable("X",x[i]).evaluate(); }
         Plot p = new Plot(graphcontainer);
-        p.plot(x, y,"y'-Curve");
         p.plot(x,yorg,"y-curve");
     }//GEN-LAST:event_plot_btn1ActionPerformed
 
@@ -1111,31 +1109,21 @@ public class GUINumericalIntegrationJPanel extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel27;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JPanel jPanel3;
-    private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
-    private javax.swing.JPanel jPanel8;
     private javax.swing.JPanel jPanel9;
     private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField2;
-    private javax.swing.JButton plot_btn;
     private javax.swing.JButton plot_btn1;
-    private javax.swing.JLabel xinc_lbl;
     private javax.swing.JLabel xinc_lbl1;
     private javax.swing.JTextField xinc_txt;
-    private javax.swing.JTextField xinc_txt1;
-    private javax.swing.JLabel xmax_lbl;
     private javax.swing.JLabel xmax_lbl1;
     private javax.swing.JTextField xmax_txt;
-    private javax.swing.JTextField xmax_txt1;
-    private javax.swing.JLabel xmin_lbl;
     private javax.swing.JLabel xmin_lbl1;
     private javax.swing.JTextField xmin_txt;
-    private javax.swing.JTextField xmin_txt1;
     // End of variables declaration//GEN-END:variables
 }

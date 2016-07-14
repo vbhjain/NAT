@@ -40,7 +40,7 @@ public class HOMEJPanel extends javax.swing.JPanel {
         main_container9.setForeground(new java.awt.Color(255, 255, 255));
         main_container9.setOpaque(false);
 
-        jLabel64.setIcon(new javax.swing.ImageIcon("C:\\Users\\Vaibhav Jain\\Documents\\NetBeansProjects\\NMProject\\src\\Drawing.png")); // NOI18N
+        jLabel64.setIcon(new javax.swing.ImageIcon(getClass().getResource("/area/math/nm/ui/Drawing.png"))); // NOI18N
 
         jLabel65.setFont(new java.awt.Font("Segoe Script", 0, 14)); // NOI18N
         jLabel65.setForeground(new java.awt.Color(51, 51, 51));
@@ -59,7 +59,7 @@ public class HOMEJPanel extends javax.swing.JPanel {
         jLabel69.setForeground(new java.awt.Color(51, 51, 51));
         jLabel69.setText("#Every User Interface is provided with quick guide , So follow those Instructions");
 
-        jLabel70.setIcon(new javax.swing.ImageIcon("C:\\Users\\Vaibhav Jain\\Documents\\NetBeansProjects\\NMProject\\src\\smiley.png")); // NOI18N
+        jLabel70.setIcon(new javax.swing.ImageIcon(getClass().getResource("/area/math/nm/ui/smiley.png"))); // NOI18N
 
         javax.swing.GroupLayout main_container9Layout = new javax.swing.GroupLayout(main_container9);
         main_container9.setLayout(main_container9Layout);

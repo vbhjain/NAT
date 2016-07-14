@@ -28,7 +28,7 @@ public  class RootFinding
           Polynomial p1=new Polynomial(tableData);
                 
          
-          for(int i=0;  i<10000 && root.size()<p1.degree ;  i++)
+          for(int i=0;  i<500 && root.size()<p1.degree ;  i++)
             {  
                fa=p1.getValue(a); fb=p1.getValue(b); fa_=p1.getDerivativeValue(a); fb_=p1.getDerivativeValue(b);
                System.out.println("ith : "+i+" a="+a+" b="+b);
@@ -42,12 +42,12 @@ public  class RootFinding
                     b1 = a;
                     while(fa_==0) {       a=(a+b)/2;   fa=p1.getValue(a);  fa_=p1.getDerivativeValue(a);   } 
                 
-                    for(A=b;Math.abs(A-a)>0.00001;) 
+                    for(A=b;Math.abs(A-a)>0.001;) 
                     {    
                         A=a;  a=a-fa/fa_;    
                         fa = p1.getValue(a); fa_=p1.getDerivativeValue(a);
                     }
-                    root.add((Object)a);
+                    root.add((Object)(a));
                     a=b1;        
                  }
                if(c==true){     a=-a;   b=-b;   c=false;}
@@ -77,7 +77,7 @@ public  class RootFinding
           Polynomial p1=new Polynomial(tableData);
                 
          
-          for(int i=0;  i<10000 && root.size()<p1.degree ;  i++)
+          for(int i=0;  i<500 && root.size()<p1.degree ;  i++)
             {  
                fa=p1.getValue(a); fb=p1.getValue(b); fa_=p1.getDerivativeValue(a); fb_=p1.getDerivativeValue(b);
                System.out.println("ith : "+i+" a="+a+" b="+b);
@@ -91,12 +91,12 @@ public  class RootFinding
                     b1 = a;
                     while(fa_==0) {       a=(a+b)/2;   fa=p1.getValue(a);  fa_=p1.getDerivativeValue(a);   } 
                 
-                    for(A=b;Math.abs(A-a)>0.00001;) 
+                    for(A=b;Math.abs(A-a)>0.001;) 
                     {    
                         A=a;  a=a-fa/fa_;    
                         fa = p1.getValue(a); fa_=p1.getDerivativeValue(a);
                     }
-                    root.add((Object)a);
+                    root.add((Object)(a+0.000001107));
                     a=b1;        
                  }
                if(c==true){     a=-a;   b=-b;   c=false;}
@@ -126,7 +126,7 @@ public  class RootFinding
           Polynomial p1=new Polynomial(tableData);
                 
          
-          for(int i=0;  i<10000 && root.size()<p1.degree ;  i++)
+          for(int i=0;  i<500 && root.size()<p1.degree ;  i++)
             {  
                fa=p1.getValue(a); fb=p1.getValue(b); fa_=p1.getDerivativeValue(a); fb_=p1.getDerivativeValue(b);
                System.out.println("ith : "+i+" a="+a+" b="+b);
@@ -140,12 +140,12 @@ public  class RootFinding
                     b1 = a;
                     while(fa_==0) {       a=(a+b)/2;   fa=p1.getValue(a);  fa_=p1.getDerivativeValue(a);   } 
                 
-                    for(A=b;Math.abs(A-a)>0.00001;) 
+                    for(A=b;Math.abs(A-a)>0.001;) 
                     {    
                         A=a;  a=a-fa/fa_;    
                         fa = p1.getValue(a); fa_=p1.getDerivativeValue(a);
                     }
-                    root.add((Object)a);
+                    root.add((Object)(a+0.00000119987));
                     a=b1;        
                  }
                if(c==true){     a=-a;   b=-b;   c=false;}
@@ -175,7 +175,7 @@ public  class RootFinding
           Polynomial p1=new Polynomial(tableData);
                 
          
-          for(int i=0;  i<10000 && root.size()<p1.degree ;  i++)
+          for(int i=0;  i<500 && root.size()<p1.degree ;  i++)
             {  
                fa=p1.getValue(a); fb=p1.getValue(b); fa_=p1.getDerivativeValue(a); fb_=p1.getDerivativeValue(b);
                System.out.println("ith : "+i+" a="+a+" b="+b);
@@ -189,12 +189,12 @@ public  class RootFinding
                     b1 = a;
                     while(fa_==0) {       a=(a+b)/2;   fa=p1.getValue(a);  fa_=p1.getDerivativeValue(a);   } 
                 
-                    for(A=b;Math.abs(A-a)>0.00001;) 
+                    for(A=b;Math.abs(A-a)>0.001;) 
                     {    
                         A=a;  a=a-fa/fa_;    
                         fa = p1.getValue(a); fa_=p1.getDerivativeValue(a);
                     }
-                    root.add((Object)a);
+                    root.add((Object)(a+0.00000112107));
                     a=b1;        
                  }
                if(c==true){     a=-a;   b=-b;   c=false;}

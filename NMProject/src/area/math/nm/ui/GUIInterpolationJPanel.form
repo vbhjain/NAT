@@ -251,13 +251,15 @@
         <Component class="javax.swing.JTextField" name="jTextField1">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="cc" green="cc" red="cc" type="rgb"/>
+              <Color blue="ec" green="dc" red="dc" type="rgb"/>
             </Property>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
                 <BevelBorder>
-                  <Color PropertyName="shadowOuter" blue="66" green="66" red="66" type="rgb"/>
-                  <Color PropertyName="shadowInner" blue="33" green="33" red="33" type="rgb"/>
+                  <Color PropertyName="highlightOuter" blue="33" green="ff" red="0" type="rgb"/>
+                  <Color PropertyName="highlightInner" blue="33" green="ff" red="0" type="rgb"/>
+                  <Color PropertyName="shadowOuter" blue="ff" green="33" red="0" type="rgb"/>
+                  <Color PropertyName="shadowInner" blue="ff" green="33" red="33" type="rgb"/>
                 </BevelBorder>
               </Border>
             </Property>
@@ -380,7 +382,7 @@
             <Component class="javax.swing.JTextField" name="xmin_txt">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="cc" green="cc" red="cc" type="rgb"/>
+                  <Color blue="f3" green="e7" red="e7" type="rgb"/>
                 </Property>
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="33" green="33" red="33" type="rgb"/>
@@ -388,8 +390,10 @@
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                   <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
                     <BevelBorder>
-                      <Color PropertyName="shadowOuter" blue="66" green="66" red="66" type="rgb"/>
-                      <Color PropertyName="shadowInner" blue="66" green="66" red="66" type="rgb"/>
+                      <Color PropertyName="highlightOuter" blue="99" green="ff" red="33" type="rgb"/>
+                      <Color PropertyName="highlightInner" blue="cc" green="ff" red="cc" type="rgb"/>
+                      <Color PropertyName="shadowOuter" blue="ff" green="66" red="66" type="rgb"/>
+                      <Color PropertyName="shadowInner" blue="ff" green="0" red="0" type="rgb"/>
                     </BevelBorder>
                   </Border>
                 </Property>
@@ -412,7 +416,7 @@
             <Component class="javax.swing.JTextField" name="xinc_txt">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="cc" green="cc" red="cc" type="rgb"/>
+                  <Color blue="f3" green="e7" red="e7" type="rgb"/>
                 </Property>
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="33" green="33" red="33" type="rgb"/>
@@ -420,8 +424,10 @@
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                   <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
                     <BevelBorder>
-                      <Color PropertyName="shadowOuter" blue="66" green="66" red="66" type="rgb"/>
-                      <Color PropertyName="shadowInner" blue="66" green="66" red="66" type="rgb"/>
+                      <Color PropertyName="highlightOuter" blue="33" green="ff" red="0" type="rgb"/>
+                      <Color PropertyName="highlightInner" blue="33" green="cc" red="0" type="rgb"/>
+                      <Color PropertyName="shadowOuter" blue="ff" green="66" red="66" type="rgb"/>
+                      <Color PropertyName="shadowInner" blue="ff" green="0" red="0" type="rgb"/>
                     </BevelBorder>
                   </Border>
                 </Property>
@@ -444,7 +450,7 @@
             <Component class="javax.swing.JTextField" name="xmax_txt">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="cc" green="cc" red="cc" type="rgb"/>
+                  <Color blue="f3" green="e7" red="e7" type="rgb"/>
                 </Property>
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="33" green="33" red="33" type="rgb"/>
@@ -452,8 +458,10 @@
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                   <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
                     <BevelBorder>
-                      <Color PropertyName="shadowOuter" blue="66" green="66" red="66" type="rgb"/>
-                      <Color PropertyName="shadowInner" blue="66" green="66" red="66" type="rgb"/>
+                      <Color PropertyName="highlightOuter" blue="99" green="ff" red="33" type="rgb"/>
+                      <Color PropertyName="highlightInner" blue="cc" green="ff" red="cc" type="rgb"/>
+                      <Color PropertyName="shadowOuter" blue="ff" green="66" red="66" type="rgb"/>
+                      <Color PropertyName="shadowInner" blue="ff" green="0" red="0" type="rgb"/>
                     </BevelBorder>
                   </Border>
                 </Property>
@@ -519,20 +527,20 @@
               <Layout>
                 <DimensionLayout dim="0">
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" attributes="0">
-                          <EmptySpace max="32767" attributes="0"/>
-                          <Component id="jPanel5" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
-                      </Group>
                       <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace pref="323" max="32767" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
                           <Component id="jLabel18" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace pref="324" max="32767" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
                       </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace pref="291" max="32767" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <EmptySpace pref="71" max="32767" attributes="0"/>
+                          <Component id="jPanel5" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="81" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
                           <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace pref="288" max="32767" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -541,11 +549,11 @@
                       <Group type="102" alignment="1" attributes="0">
                           <EmptySpace max="32767" attributes="0"/>
                           <Component id="jPanel5" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
                           <Component id="jLabel18" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
                           <Component id="jLabel8" min="-2" pref="16" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -554,7 +562,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel18">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Users\Vaibhav Jain\Documents\NetBeansProjects\NMProject\src\Drawing_100x100.png"/>
+                      <Image iconType="3" name="/area/math/nm/ui/Drawing_100x100.png"/>
                     </Property>
                   </Properties>
                 </Component>
@@ -634,7 +642,7 @@
                     <Component class="javax.swing.JLabel" name="jLabel20">
                       <Properties>
                         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                          <Image iconType="2" name="C:\Users\Vaibhav Jain\Documents\NetBeansProjects\NMProject\src\smiley.png"/>
+                          <Image iconType="3" name="/area/math/nm/ui/smiley.png"/>
                         </Property>
                         <Property name="text" type="java.lang.String" value="jLabel19"/>
                       </Properties>

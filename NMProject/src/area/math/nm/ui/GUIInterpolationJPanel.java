@@ -1120,8 +1120,8 @@ public class GUIInterpolationJPanel extends javax.swing.JPanel {
         jLabel3.setForeground(new java.awt.Color(102, 102, 102));
         jLabel3.setText("x");
 
-        jTextField1.setBackground(new java.awt.Color(204, 204, 204));
-        jTextField1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, null, null, new java.awt.Color(102, 102, 102), new java.awt.Color(51, 51, 51)));
+        jTextField1.setBackground(new java.awt.Color(220, 220, 236));
+        jTextField1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 255, 51), new java.awt.Color(0, 255, 51), new java.awt.Color(0, 51, 255), new java.awt.Color(51, 51, 255)));
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -1180,27 +1180,27 @@ public class GUIInterpolationJPanel extends javax.swing.JPanel {
         xmin_lbl.setForeground(new java.awt.Color(102, 102, 102));
         xmin_lbl.setText(" X-min");
 
-        xmin_txt.setBackground(new java.awt.Color(204, 204, 204));
+        xmin_txt.setBackground(new java.awt.Color(231, 231, 243));
         xmin_txt.setForeground(new java.awt.Color(51, 51, 51));
-        xmin_txt.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, null, null, new java.awt.Color(102, 102, 102), new java.awt.Color(102, 102, 102)));
+        xmin_txt.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 255, 153), new java.awt.Color(204, 255, 204), new java.awt.Color(102, 102, 255), new java.awt.Color(0, 0, 255)));
         xmin_txt.setSelectionColor(new java.awt.Color(204, 204, 204));
 
         xinc_lbl.setFont(new java.awt.Font("Script MT Bold", 0, 14)); // NOI18N
         xinc_lbl.setForeground(new java.awt.Color(102, 102, 102));
         xinc_lbl.setText("   X-in");
 
-        xinc_txt.setBackground(new java.awt.Color(204, 204, 204));
+        xinc_txt.setBackground(new java.awt.Color(231, 231, 243));
         xinc_txt.setForeground(new java.awt.Color(51, 51, 51));
-        xinc_txt.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, null, null, new java.awt.Color(102, 102, 102), new java.awt.Color(102, 102, 102)));
+        xinc_txt.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 255, 51), new java.awt.Color(0, 204, 51), new java.awt.Color(102, 102, 255), new java.awt.Color(0, 0, 255)));
         xinc_txt.setSelectionColor(new java.awt.Color(204, 204, 204));
 
         xmax_lbl.setFont(new java.awt.Font("Script MT Bold", 0, 14)); // NOI18N
         xmax_lbl.setForeground(new java.awt.Color(102, 102, 102));
         xmax_lbl.setText("X-max");
 
-        xmax_txt.setBackground(new java.awt.Color(204, 204, 204));
+        xmax_txt.setBackground(new java.awt.Color(231, 231, 243));
         xmax_txt.setForeground(new java.awt.Color(51, 51, 51));
-        xmax_txt.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, null, null, new java.awt.Color(102, 102, 102), new java.awt.Color(102, 102, 102)));
+        xmax_txt.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 255, 153), new java.awt.Color(204, 255, 204), new java.awt.Color(102, 102, 255), new java.awt.Color(0, 0, 255)));
         xmax_txt.setCaretColor(new java.awt.Color(0, 0, 51));
         xmax_txt.setSelectionColor(new java.awt.Color(204, 204, 204));
         xmax_txt.addActionListener(new java.awt.event.ActionListener() {
@@ -1265,7 +1265,7 @@ public class GUIInterpolationJPanel extends javax.swing.JPanel {
         graph_container.setEnabled(false);
         graph_container.setFont(new java.awt.Font("Verdana", 0, 11)); // NOI18N
 
-        jLabel18.setIcon(new javax.swing.ImageIcon("C:\\Users\\Vaibhav Jain\\Documents\\NetBeansProjects\\NMProject\\src\\Drawing_100x100.png")); // NOI18N
+        jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/area/math/nm/ui/Drawing_100x100.png"))); // NOI18N
 
         jLabel8.setFont(new java.awt.Font("Segoe Script", 1, 14)); // NOI18N
         jLabel8.setText("Numerical analysis Tutorial");
@@ -1276,7 +1276,7 @@ public class GUIInterpolationJPanel extends javax.swing.JPanel {
         jLabel27.setForeground(new java.awt.Color(51, 51, 51));
         jLabel27.setText("!!! Quick Guide to use the Interpolation office Utility:");
 
-        jLabel20.setIcon(new javax.swing.ImageIcon("C:\\Users\\Vaibhav Jain\\Documents\\NetBeansProjects\\NMProject\\src\\smiley.png")); // NOI18N
+        jLabel20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/area/math/nm/ui/smiley.png"))); // NOI18N
         jLabel20.setText("jLabel19");
 
         jLabel28.setFont(new java.awt.Font("Segoe Script", 0, 12)); // NOI18N
@@ -1339,27 +1339,27 @@ public class GUIInterpolationJPanel extends javax.swing.JPanel {
             graph_containerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(graph_containerLayout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jLabel18)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(graph_containerLayout.createSequentialGroup()
-                .addContainerGap(323, Short.MAX_VALUE)
-                .addComponent(jLabel18)
-                .addContainerGap(324, Short.MAX_VALUE))
-            .addGroup(graph_containerLayout.createSequentialGroup()
-                .addContainerGap(291, Short.MAX_VALUE)
+                .addContainerGap(71, Short.MAX_VALUE)
+                .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(81, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, graph_containerLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel8)
-                .addContainerGap(288, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         graph_containerLayout.setVerticalGroup(
             graph_containerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, graph_containerLayout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(30, 30, 30)
+                .addGap(37, 37, 37)
                 .addComponent(jLabel18)
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(16, 16, 16))
         );
 
         jScrollPane2.setViewportView(graph_container);

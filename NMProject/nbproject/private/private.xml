@@ -4,11 +4,12 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/Vaibhav%20Jain/Documents/NetBeansProjects/NMProject/src/area/math/nm/ui/GUIMainJFrame.java</file>
-            <file>file:/C:/Users/Vaibhav%20Jain/Documents/NetBeansProjects/NMProject/src/area/math/nm/ui/GUIInterpolationJPanel.java</file>
+            <file>file:/C:/Users/Vaibhav%20Jain/Documents/NetBeansProjects/NMProject/src/area/math/nm/lib/Interpolation.java</file>
+            <file>file:/C:/Users/Vaibhav%20Jain/Documents/NetBeansProjects/NMProject/src/area/math/nm/lib/ODEs.java</file>
             <file>file:/C:/Users/Vaibhav%20Jain/Documents/NetBeansProjects/NMProject/src/area/math/nm/lib/NumericalDifferentiation.java</file>
-            <file>file:/C:/Users/Vaibhav%20Jain/Documents/NetBeansProjects/NMProject/src/area/math/nm/lib/NumericalIntegration.java</file>
-            <file>file:/C:/Users/Vaibhav%20Jain/Documents/NetBeansProjects/NMProject/src/area/math/nm/ui/GUINumericalDifferentiationJPanel.java</file>
-            <file>file:/C:/Users/Vaibhav%20Jain/Documents/NetBeansProjects/NMProject/src/area/math/nm/ui/GUIRootFindingJPanel.java</file>
+            <file>file:/C:/Users/Vaibhav%20Jain/Documents/NetBeansProjects/NMProject/src/area/math/nm/lib/Gauss_Jordan_Elimination.java</file>
+            <file>file:/C:/Users/Vaibhav%20Jain/Documents/NetBeansProjects/NMProject/src/area/math/nm/lib/Arithmetic.java</file>
+            <file>file:/C:/Users/Vaibhav%20Jain/Documents/NetBeansProjects/NMProject/src/area/math/nm/ui/GUIRootFindingJPanel2.java</file>
         </group>
     </open-files>
 </project-private>

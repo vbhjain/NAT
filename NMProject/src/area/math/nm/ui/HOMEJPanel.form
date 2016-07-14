@@ -106,7 +106,7 @@
         <Component class="javax.swing.JLabel" name="jLabel64">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Vaibhav Jain\Documents\NetBeansProjects\NMProject\src\Drawing.png"/>
+              <Image iconType="3" name="/area/math/nm/ui/Drawing.png"/>
             </Property>
           </Properties>
         </Component>
@@ -161,7 +161,7 @@
         <Component class="javax.swing.JLabel" name="jLabel70">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Vaibhav Jain\Documents\NetBeansProjects\NMProject\src\smiley.png"/>
+              <Image iconType="3" name="/area/math/nm/ui/smiley.png"/>
             </Property>
           </Properties>
         </Component>
